@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-starbucks.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7c8606ef55.js" crossorigin="anonymous"></script>
+    <title>Aplicando Bootstrap</title>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="img/logopng.png" alt="logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/productos.html">Bebidas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/comida.html">Comida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="jumbotron text-bottom">
+            <h1>No es solo un cafe</h1>
+            <p>No importa cuando estes leyendo esto,<br> es hora de un cafe.</p>
+            <button type="button" class="btn btn-warning text-white btn__centrar ">MAS INFO</button>
+        </div>
+
+
+        
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="col-12" id="nosotros"> Nosotros</h2>
+            <div class="n-left col-xs-12 col-md-6">
+                <p>Starbucks compra y tuesta cafés en grano de gran calidad. Es la esencia de nuestra actividad. ¿Pero sabes quiénes somos en realidad?
+                    Nuestras cafeterías se han convertido en puntos de referencia para los amantes del café en todo el mundo. ¿Pero por qué insisten en venir a Starbucks? Porque saben que reciben un servicio genuino, un ambiente acogedor y una magnífica taza de café tostado preparado con esmero por manos expertas.
+                    
+                    Más que café
+                    Nos apasiona nuestra labor de abastecedores de café, así como todo lo relacionado con el disfrute de una experiencia gratificante en una de nuestras tiendas. También ofrecemos una selección de tés de calidad superior, alta repostería y otras alternativas deliciosas para agradar al paladar. Sin olvidar que la música que se escucha en nuestras tiendas está elegida por su calidad artística y su atractivo.
+                    
+                    Las personas acuden a Starbucks a charlar, reunirse o trabajar. Somos un lugar de encuentro en el barrio, parte de la rutina diaria… y no hay nada que nos haga más felices. Ven a conocernos y lo comprobarás: somos mucho más que los cafés que elaboramos.
+                </p>
+            </div>
+            <div class="n-rigth col-xs-12 col-md-6">
+                <img src="img/starbakcs.jpg" class="img-fluid img-thumbnail"  alt="imagenproducto">
+            </div>
+        </div>
+    </div>
+    </main>
+
+
+    <footer>
+        <div class= "container__footer row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <img src="img/logopng.png" class="logo-footer">
+                <h3 class="h3_slogan">
+                    El mejor cafe en un solo lugar.
+                </h3>   
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <h3 class="h3__espacio">
+                    Datos de contacto
+                </h3>
+                <ul>
+                    <li> contacto@starbucks.com </li>
+                    <li> +193415111111</li>
+                    <li> USA</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <h3 class="h3__espacio">
+                        Redes sociales
+                    </h3>
+                    <ul class="redes2">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="container-fluid">    
+            <div class="row container__cr">
+                <h3 class="col-12">&copy; Derechos reservados - 2021</h3>
+            </div>   
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>
